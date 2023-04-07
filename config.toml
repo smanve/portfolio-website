@@ -1,0 +1,60 @@
+baseURL = "https://manvendra.pw/"
+languageCode = "en-us"
+title = "Manvendra's Portfolio"
+theme = "hugo-theme-terminal"
+
+[params]
+  description = "Manvendra's portfolio website showcasing projects and experience."
+  author = "Manvendra Singh"
+  showReadingTime = true
+  showRelated = true
+  showFooter = true
+
+  # Social links
+  [[params.social]]
+    name = "GitHub"
+    icon = "fab fa-github"
+    url = "https://github.com/smanve"
+  
+  [[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    url = "https://www.linkedin.com/in/manvendrasingh1999/"
+
+  [[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    url = "https://twitter.com/your_username"
+
+  [[params.social]]
+    name = "Email"
+    icon = "fas fa-envelope"
+    url = "mailto:msin0017@student.monash.edu"
+
+# Main menu items
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog/"
+  weight = 3
+
+# Configure Google Analytics if needed
+# [services.googleAnalytics]
+#  id = "UA-XXXXXXXX-X"
+
+# Configure syntax highlighting theme
+[markup.highlight]
+  style = "monokai"
+

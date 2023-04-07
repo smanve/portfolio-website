@@ -1,4 +1,4 @@
-baseURL = "https://manvendra.pw/"
+baseURL = "http://www.manvendra.pw/"
 languageCode = "en-us"
 title = "Manvendra's Portfolio"
 theme = "hugo-theme-terminal"
